@@ -7,10 +7,9 @@ BUILT_ENVS= \
  etce.env \
  letce2.env \
  ostatistic.env \
- otestpoint.env \
- srslte.env
+ otestpoint.env
 
-PYTHON=python2
+PYTHON=$(shell python --version 2>&1 | sed -e 's/ //' | awk  -F\. '{print $$1}' | tr A-Z a-z)
 DEV_ROOT=$(HOME)/dev
 BIN_ROOT=$(HOME)
 
