@@ -3,6 +3,7 @@ BUILT_ENVS= \
  emane-dlep.env \
  emane.env \
  emane-lte.env \
+ emane-node-view.env \
  emane-ran.env \
  emane-tutorial.env \
  etce.env \

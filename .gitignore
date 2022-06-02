@@ -2,6 +2,7 @@ common.env
 emane-dlep.env
 emane.env
 emane-lte.env
+emane-node-view.env
 emane-tutorial.env
 emane-ran.env
 etce.env
