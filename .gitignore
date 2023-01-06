@@ -1,12 +1,7 @@
 common.env
 emane-dlep.env
-emane.env
-emane-lte.env
-emane-node-view.env
 emane-tutorial.env
-emane-ran.env
 etce.env
 letce2.env
-ostatistic.env
-otestpoint.env
+adjacentlink-foss.env
 

@@ -1,15 +1,10 @@
 BUILT_ENVS= \
  common.env \
- emane-dlep.env \
- emane.env \
- emane-lte.env \
- emane-node-view.env \
- emane-ran.env \
+ adjacentlink-foss.env \
  emane-tutorial.env \
+ emane-dlep.env \
  etce.env \
- letce2.env \
- ostatistic.env \
- otestpoint.env
+ letce2.env
 
 PYTHON=$(shell python --version 2>&1 | sed -e 's/ //' | awk  -F\. '{print $$1}' | tr A-Z a-z)
 DEV_ROOT=$(HOME)/dev
