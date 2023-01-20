@@ -3,7 +3,6 @@ BUILT_ENVS= \
  adjacentlink-foss.env \
  emane-tutorial.env \
  emane-dlep.env \
- etce.env \
  letce2.env
 
 PYTHON=$(shell python --version 2>&1 | sed -e 's/ //' | awk  -F\. '{print $$1}' | tr A-Z a-z)
